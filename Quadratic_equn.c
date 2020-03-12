@@ -11,7 +11,7 @@ void main()
 	{
           Real=-b/(2*a);
           img=sqrt(-det)/(2*a);
-	  printf("The roots are %.2f+%.2f and %.2f-%.2f",real,img,real,img);
+	  printf("The roots are %.2f+%.2fi and %.2f-%.2fi",real,img,real,img);
 	}
         else
         {
