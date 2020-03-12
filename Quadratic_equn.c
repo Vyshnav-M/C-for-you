@@ -9,14 +9,14 @@ void main()
         det=b*b-4*a*c;
 	if(det<0)
 	{
-          Real=-b/(2*a);
+          real=-b/(2*a);
           img=sqrt(-det)/(2*a);
 	  printf("The roots are %.2f+%.2fi and %.2f-%.2fi",real,img,real,img);
 	}
         else
         {
-	r1=(-b+sqrt(det))/(2*a);
-	r2=(-b-sqrt(det))/(2*a);
-	printf("The roots are %.2f  ,  %.2f",r1,r2);
+	  r1=(-b+sqrt(det))/(2*a);
+	  r2=(-b-sqrt(det))/(2*a);
+	  printf("The roots are %.2f  ,  %.2f",r1,r2);
         }
 }
