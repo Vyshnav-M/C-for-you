@@ -25,7 +25,7 @@ void main()
        seclarg=larg;
        larg=a[i];
       }
-     else if(a[i]>seclarg&&a[i]<larg)
+     else if(a[i]>seclarg&&a[i]!=larg)
       {
        seclarg=a[i];
       } 
