@@ -17,8 +17,9 @@ int main()
      if(a[i]==item)
       {
       printf("Item found at position %d",i+1);
-      return;
+      break;
       }
     }
+    if(i==n)
     printf("Item not found");
 }
